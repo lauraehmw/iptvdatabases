@@ -72,17 +72,17 @@ VALUES("Cartoon Network"),
 ("CNN");
 
 INSERT INTO planes (plan, costo, definicion)
-VALUES ("BÁSICO", 99.90, "MEDIA"),
+VALUES ("BASICO", 99.90, "MEDIA"),
 ("ESTANDAR", 159.90, "HD"),
 ("PREMIUM", 199.90, "4k");
 
 INSERT INTO cliente (nombre, ap_paterno, ap_materno)
 VALUES ("Julieta","Capuleto","Bianchi"),
-("Inés", "de Ulloa", "Cienfuegos"),
-("Jose Arcadio", "Buendía", "García"),
+("Ines", "de Ulloa", "Cienfuegos"),
+("Jose Arcadio", "Buendia", "Garcia"),
 ("Juan Pablo", "Castel", "Sabato"),
 ("Gregorio", "Samsa", "Kafka"),
-("Catalina", "Guzmán", "Mastretta");
+("Catalina", "Guzman", "Mastretta");
 
 INSERT INTO usuarios (correo, password, id_cliente, id_plan) 
 VALUES ("julieta@mail.com", "password", 1, 3),
