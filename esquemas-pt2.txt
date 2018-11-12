@@ -5,35 +5,21 @@ schema: itq.edu.soa.iptvservicio
 IPTVServicio
 	servicioRequest
 		usuario
-			correo
-			canales
-			definicion
+			usuario (correo)
+			plan
 	subscripcionResponse
 		susbscripcion (boolean)
-		info (string: Subscripción aprobada, disfrute el servicio | ??)
+		info (string: Subscripción aprobada, disfrute el servicio)
 
 ---------------------------
 
-AltaUsuarioProveedor.xml
+Proveedor.xml
 
-schema: itq.edu.soa.proveedor.alta
+schema: itq.edu.soa.proveedor
 
-AltaUsuarioProveedor
-	altaUsuarioRequest
-		correo
-	altaUsuarioResponse
-		registro (boolean)
-
----------------------------
-
-configUsuarioProveedor.xml
-
-shema: itq.edu.soa.proveedor.config
-
-ConfigUsuarioProveedor
-	configUsuarioRequest
-		correo
-		definicion
-		canales
-	configUsuarioResponse
-		config (boolean)
+Proveedor
+	proveedorRequest
+		usuario
+		plan
+	proveedorResponse
+		resp (boolean)
