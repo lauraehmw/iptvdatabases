@@ -4,9 +4,8 @@ schema: itq.edu.soa.iptvservicio
 
 IPTVServicio
 	servicioRequest
-		usuario
-			usuario (correo)
-			plan
+		usuario (correo)
+		plan
 	subscripcionResponse
 		susbscripcion (boolean)
 		info (string: Subscripción aprobada, disfrute el servicio)
@@ -23,3 +22,5 @@ Proveedor
 		plan
 	proveedorResponse
 		resp (boolean)
+
+		

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://itq.edu/soa/proveedor" targetNamespace="http://itq.edu/soa/proveedor" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="proveedorRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="usuario" type="xs:string"/>
+				<xs:element name="plan" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="proveedorResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="resp" type="xs:boolean"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
